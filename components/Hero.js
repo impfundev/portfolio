@@ -52,6 +52,8 @@ export default function Hero() {
         </div>
         <IconList />
       </motion.div>
+      <span className="w-[70vw] h-[50vh] bg-primary blur-3xl rotate-12 opacity-25 absolute top-0 right-0 rounded-full -z-10 animate-pulse"></span>
+      <span className="w-[70vw] h-[50vh] bg-warning blur-3xl -rotate-12 opacity-25 absolute top-0 left-0 rounded-full -z-10 animate-pulse"></span>
     </section>
   );
 }

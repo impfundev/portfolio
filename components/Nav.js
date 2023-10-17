@@ -18,19 +18,31 @@ const jetbrains = JetBrains_Mono({
 
 export default function Navigation() {
   return (
-    <Navbar className={jetbrains.className} shouldHideOnScroll>
+    <Navbar shouldHideOnScroll isBordered className={jetbrains.className}>
       <NavbarBrand className="font-bold text-xl">&#123; IMP &#125;</NavbarBrand>
-      <NavbarContent className="hidden sm:flex gap-4" justify="center">
-        <NavbarItem>
-          <Link className="text-xl" href="#project" aria-current="page">
-            Project
-          </Link>
-        </NavbarItem>
-      </NavbarContent>
       <NavbarContent justify="end">
         <NavbarItem>
-          <Button as={Link} color="primary" href="#contact" variant="flat">
+          <Button
+            className="rounded-full"
+            size="sm"
+            as={Link}
+            color="primary"
+            href="#contact"
+            variant="ghost"
+          >
             Contact
+          </Button>
+        </NavbarItem>
+        <NavbarItem>
+          <Button
+            className="rounded-full"
+            size="sm"
+            as={Link}
+            color="primary"
+            href="#project"
+            variant="ghost"
+          >
+            Project
           </Button>
         </NavbarItem>
       </NavbarContent>

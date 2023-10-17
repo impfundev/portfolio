@@ -1,4 +1,4 @@
-import Card from "./Card";
+import CardProject from "./Card";
 
 export default function ProjectList() {
   return (
@@ -10,9 +10,18 @@ export default function ProjectList() {
         Projects
       </h2>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 py-12">
-        <Card title="Web App" />
-        <Card title="Mobile App" />
-        <Card title="Dekstop App" />
+        <CardProject
+          title="Web App"
+          image="https://nextui.org/images/card-example-6.jpeg"
+        />
+        <CardProject
+          title="Mobile App"
+          image="https://nextui.org/images/card-example-2.jpeg"
+        />
+        <CardProject
+          title="Dekstop App"
+          image="https://nextui.org/images/card-example-4.jpeg"
+        />
       </div>
     </div>
   );
