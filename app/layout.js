@@ -11,7 +11,7 @@ const manrope = Manrope({
 
 export const metadata = {
   title: "Ilham Maulana Pratama",
-  description: "Fullstack Developer and UI/UX Designer",
+  description: "Full-Stack Developer and UI/UX Designer",
 };
 
 export default function RootLayout({ children }) {
