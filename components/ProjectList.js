@@ -2,7 +2,7 @@ import CardProject from "./Card";
 
 export default function ProjectList() {
   return (
-    <div className="px-12 py-28">
+    <div className="px-12">
       <h2
         id="project"
         className="text-2xl text-center font-bold tracking-wider"
