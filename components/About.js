@@ -28,7 +28,7 @@ export default function About() {
             <div className="flex flex-col col-span-6 md:col-span-8">
               <div className="flex justify-between items-start">
                 <div className="prose lg:prose-xl">
-                  <h1>About</h1>
+                  <h1 className="text-foreground">About</h1>
                   <h3 className="font-semibold text-foreground/90">
                     Ilham Maulana Pratama
                   </h3>

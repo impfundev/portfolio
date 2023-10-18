@@ -1,7 +1,5 @@
 import "./globals.css";
 import { Manrope } from "next/font/google";
-import Hero from "@/components/Hero";
-import Navigation from "@/components/Nav";
 
 const manrope = Manrope({
   weight: "400",
@@ -17,10 +15,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${manrope.className} scroll-smooth`}>
-        <Navigation />
-        <Hero />
-        <main>{children}</main>
+      <body
+        className={`${manrope.className} scroll-smooth dark bg-background text-foreground`}
+      >
+        {children}
       </body>
     </html>
   );
