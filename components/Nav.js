@@ -22,26 +22,12 @@ export default function Navigation() {
       <NavbarBrand className="font-bold text-xl">&#123; IMP &#125;</NavbarBrand>
       <NavbarContent justify="end">
         <NavbarItem>
-          <Button
-            className="rounded-full"
-            size="sm"
-            as={Link}
-            color="primary"
-            href="#contact"
-            variant="ghost"
-          >
+          <Button radius="full" size="sm" as={Link} href="#contact">
             Contact
           </Button>
         </NavbarItem>
         <NavbarItem>
-          <Button
-            className="rounded-full"
-            size="sm"
-            as={Link}
-            color="primary"
-            href="#project"
-            variant="ghost"
-          >
+          <Button radius="full" size="sm" as={Link} href="#project">
             Project
           </Button>
         </NavbarItem>

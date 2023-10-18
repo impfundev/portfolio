@@ -11,7 +11,7 @@ import {
 
 import ModalProject from "./ModalProject";
 
-export default function CardProject({ title, image }) {
+export default function CardProject({ title, excerpt, image, content }) {
   const { isOpen, onOpen, onOpenChange } = useDisclosure();
   return (
     <>
@@ -21,6 +21,7 @@ export default function CardProject({ title, image }) {
           <h4 className="text-white/90 font-medium text-xl">{title}</h4>
         </CardHeader>
         <Image
+          onClick={onOpen}
           isZoomed
           removeWrapper
           alt="Relaxing app background"
@@ -30,10 +31,10 @@ export default function CardProject({ title, image }) {
         <CardFooter className="absolute bg-black/40 bottom-0 z-10 border-t-1 border-default-600 dark:border-default-100">
           <div className="flex flex-grow gap-2 items-center">
             <div className="flex flex-col">
-              <p className="text-tiny text-white/60">{title}</p>
-              <p className="text-tiny text-white/60">
-                Get a good night's sleep.
+              <p className="text-base text-white/80 font-semibold tracking-wide">
+                {title}
               </p>
+              <p className="text-tiny text-white/60">{excerpt}</p>
             </div>
           </div>
           <Button onPress={onOpen} radius="full" size="sm">
@@ -44,6 +45,7 @@ export default function CardProject({ title, image }) {
       <ModalProject
         image={image}
         title={title}
+        content={content}
         isOpen={isOpen}
         onOpenChange={onOpenChange}
       />
