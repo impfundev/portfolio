@@ -17,7 +17,7 @@ export default function ModalProject({
 }) {
   return (
     <Modal
-      className="prose lg:prose-xl max-h-[90vh] overflow-y-auto"
+      className="prose lg:prose-xl text-foreground max-h-[90vh] overflow-y-auto"
       size="4xl"
       isOpen={isOpen}
       onOpenChange={onOpenChange}
