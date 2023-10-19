@@ -29,7 +29,7 @@ export default function Hero() {
             animate={{ opacity: 1, marginLeft: 0 }}
             transition={{ duration: 0.6 }}
           >
-            Hi, I'm Ilham Maulana Pratama
+            Hi, I&apos;m Ilham Maulana Pratama
           </motion.span>
         </div>
         <motion.div
