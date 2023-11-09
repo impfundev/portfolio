@@ -1,8 +1,10 @@
 ---
-title: My First Post
-excerpt: My first project excerpt
-image: https://nextui.org/images/card-example-4.jpeg
-date: 2023-11-24
+title: React Native Newsletter Sign-In
+excerpt: Newsletter Sign-In App build with React Native and Expo.
+image: https://github.com/impfundev/React-Native-Newsletter-Sign-In/blob/main/little_lemon.gif
+date: 2023-07-01
 ---
 
-Ullamco et nostrud magna commodo nostrud ...
+Newsletter Sign-In App build with React Native and Expo.
+
+[Github Repository](https://github.com/impfundev/React-Native-Newsletter-Sign-In)
