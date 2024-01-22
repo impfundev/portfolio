@@ -17,7 +17,7 @@ export default function ModalProject({
 }) {
   return (
     <Modal
-      className="prose lg:prose-xl text-foreground max-h-[90vh] overflow-y-auto"
+      className="prose lg:prose-xl dark:prose-invert text-foreground max-h-[90vh] overflow-y-auto"
       size="4xl"
       isOpen={isOpen}
       onOpenChange={onOpenChange}
@@ -26,7 +26,7 @@ export default function ModalProject({
         {(onClose) => (
           <>
             <ModalHeader className="flex flex-col gap-1">
-              <h1 className="text-foreground">{title}</h1>
+              <h1>{title}</h1>
               <Image
                 alt="Relaxing app background"
                 className="w-full max-h-[380px] object-cover"
