@@ -20,7 +20,7 @@ export default function CardProject({ title, excerpt, image, content }) {
           <p className="text-tiny text-white/60 uppercase font-bold">New</p>
           <h4 className="text-white/90 font-medium text-xl">{title}</h4>
         </CardHeader>
-        {image ? && (
+        {image && (
           <Image
             onClick={onOpen}
             isZoomed
