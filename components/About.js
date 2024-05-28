@@ -37,18 +37,25 @@ export default function About() {
                   </small>
                   <p className="text-foreground/80">Full-Stack Developer</p>
                   <p className="text-foreground/80">
-                    I am a web developer with in building full-stack web
-                    applications using React and Next.js Framework. I have a
-                    passion for creating responsive, user-friendly and
-                    aesthetically pleasing websites that meet the client’s needs
-                    and expectations.
+                    Passionate full-stack web developer with a strong foundation
+                    in Javascript and React for creating exceptional web
+                    applications. My journey began at Harisenin.com's Full-Stack
+                    Web Development Bootcamp, where I honed my skills in
+                    teamwork with Agile fondation, JavaScript, React, Node.js,
+                    RESTful API, and Database.
                   </p>
                   <p className="text-foreground/80">
-                    I enjoy collaborating with designers who have a high taste
-                    of design and learning new technologies and tools to improve
-                    my web development skills.
+                    This combination of practical development skills and
+                    theoretical knowledge equips me to contribute meaningfully
+                    to the ever-evolving world of technology. I'm proficient in
+                    leveraging CI/CD practices, also frameworks like Next.js
+                    combined with Typescript to ensure efficient development and
+                    delivery of high-quality, functional web applications.
                   </p>
-                  <div className="flex gap-4 items-center flex-wrap">
+                  <div
+                    id="contact"
+                    className="flex gap-4 items-center flex-wrap"
+                  >
                     <Button
                       className="rounded-full"
                       variant="shadow"
@@ -72,18 +79,9 @@ export default function About() {
                       variant="shadow"
                       color="primary"
                       as={Link}
-                      href="mailto:mail@ilhammaulana.me"
+                      href="mailto:ilhammaulana.dev@gmail.com"
                     >
                       Email
-                    </Button>
-                    <Button
-                      className="rounded-full"
-                      variant="shadow"
-                      color="primary"
-                      as={Link}
-                      href="https://read.cv/ilhammaulana.p"
-                    >
-                      CV
                     </Button>
                   </div>
                 </div>

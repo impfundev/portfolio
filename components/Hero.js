@@ -38,7 +38,7 @@ export default function Hero() {
           animate={{ opacity: 1, marginLeft: 0 }}
           transition={{ duration: 0.6 }}
         >
-          <span className={jetbrains.className}>Frontend Developer</span>
+          <span className={jetbrains.className}>Fullstack Developer</span>
         </motion.div>
       </div>
       <motion.div
@@ -49,8 +49,8 @@ export default function Hero() {
       >
         <span className="w-8 md:w-10 h-1 bg-foreground"></span>
         <div className="max-w-sm text-lg md:text-xl tracking-wide">
-          I have expertise in <b>Javascript (ES6)</b>, <b>ReactJS</b>, and{" "}
-          <b>NextJS</b>.
+          I have expertise in <b>Javascript</b>, <b>Typescript</b>,{" "}
+          <b>ReactJS</b>, and <b>NextJS</b>.
         </div>
         <IconList />
       </motion.div>
