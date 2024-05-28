@@ -39,7 +39,7 @@ export default function About() {
                   <p className="text-foreground/80">
                     Passionate full-stack web developer with a strong foundation
                     in Javascript and React for creating exceptional web
-                    applications. My journey began at Harisenin.com's Full-Stack
+                    applications. My journey began at Harisenin.com Full-Stack
                     Web Development Bootcamp, where I honed my skills in
                     teamwork with Agile fondation, JavaScript, React, Node.js,
                     RESTful API, and Database.
@@ -47,10 +47,11 @@ export default function About() {
                   <p className="text-foreground/80">
                     This combination of practical development skills and
                     theoretical knowledge equips me to contribute meaningfully
-                    to the ever-evolving world of technology. I'm proficient in
-                    leveraging CI/CD practices, also frameworks like Next.js
-                    combined with Typescript to ensure efficient development and
-                    delivery of high-quality, functional web applications.
+                    to the ever-evolving world of technology. I&lsquo;m
+                    proficient in leveraging CI/CD practices, also frameworks
+                    like Next.js combined with Typescript to ensure efficient
+                    development and delivery of high-quality, functional web
+                    applications.
                   </p>
                   <div
                     id="contact"
